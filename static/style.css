@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Nekst Semi';
+    src: url('Nekst-SemiBold.eot');
+    src: local('Nekst Semi Bold'), local('Nekst-SemiBold'),
+        url('Nekst-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Nekst-SemiBold.woff2') format('woff2'),
+        url('Nekst-SemiBold.woff') format('woff'),
+        url('Nekst-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('Nekst-Regular.eot');
+    src: local('Nekst'), local('Nekst-Regular'),
+        url('Nekst-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Nekst-Regular.woff2') format('woff2'),
+        url('Nekst-Regular.woff') format('woff'),
+        url('Nekst-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('Nekst-Black.eot');
+    src: local('Nekst Black'), local('Nekst-Black'),
+        url('Nekst-Black.eot?#iefix') format('embedded-opentype'),
+        url('Nekst-Black.woff2') format('woff2'),
+        url('Nekst-Black.woff') format('woff'),
+        url('Nekst-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('Nekst-Thin.eot');
+    src: local('Nekst Thin'), local('Nekst-Thin'),
+        url('Nekst-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Nekst-Thin.woff2') format('woff2'),
+        url('Nekst-Thin.woff') format('woff'),
+        url('Nekst-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('Nekst-Bold.eot');
+    src: local('Nekst Bold'), local('Nekst-Bold'),
+        url('Nekst-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Nekst-Bold.woff2') format('woff2'),
+        url('Nekst-Bold.woff') format('woff'),
+        url('Nekst-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('Nekst-Medium.eot');
+    src: local('Nekst Medium'), local('Nekst-Medium'),
+        url('Nekst-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Nekst-Medium.woff2') format('woff2'),
+        url('Nekst-Medium.woff') format('woff'),
+        url('Nekst-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('Nekst-Light.eot');
+    src: local('Nekst Light'), local('Nekst-Light'),
+        url('Nekst-Light.eot?#iefix') format('embedded-opentype'),
+        url('Nekst-Light.woff2') format('woff2'),
+        url('Nekst-Light.woff') format('woff'),
+        url('Nekst-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+::selection {
+    background: #A8EB12;
+    color: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Nekst;
+    background: #000000;
+    color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.account__link {
+    display: flex;
+}
+
+.home__link, .support__link, .fq__link, .account__link {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.header__cont {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header__elements {
+    display: flex;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.home__link::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 2px;
+    background: #A8EB12;
+    margin-top: 10px;
+}
+
+.home__link:hover, .support__link:hover, .fq__link:hover, .account__link:hover {
+    color: #A8EB12;    
+    transition: all 0.2s;
+}
+
+.start__button {
+    background: #A8EB12;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 35px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.start__button:hover {
+    background: #FFFFFF;
+    transition: all 0.2s;
+}
+
+.start__page__cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.motivation__text {
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.start__page__add__text {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+}
+
+.start__page__lines {
+    position: absolute;
+    z-index: -1;
+    right: -70px;
+    top: 10px;
+    width: 70%;
+}
+
+.why__we__line {
+    display: flex;
+    justify-content: space-around;
+    background: #A8EB12;
+}
+
+.why__we {
+    font-size: 5vw;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.down__arrow__cont {
+    display: flex;
+    justify-content: center;
+
+}
+
+.down__arrow {
+    width: 5vw;
+}
+
+.green__text {
+    color: #A8EB12;
+}
+
+.mission__title {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.mission__section__text__cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mission__add_text {
+    font-size: 60px;
+    font-weight: 600;
+    width: 60%;
+    margin: 0;
+    text-align: right;
+}
+
+.green__lines {
+    position: absolute;
+    z-index: -1;
+    top: 100%;
+    width: 70%;
+}
+
+.goal__button {
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 35px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.goal__button:hover {
+    background: #A8EB12;
+    transition: all 0.2s;
+}
+
+.goal__section__cont {
+    color: #000000;
+    background: #FFFFFF;
+}
+
+.goal__text__cont {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.goal__text {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.goal__info__cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.goal__info__text {
+    font-size: 60px;
+    width: 55%;
+    font-weight: 300;
+    margin: 0;
+}
+
+.black__lines {
+    position: absolute;
+    /* z-index: -1; */
+    left: 50%;
+    top: 200%;
+    width: 60%;
+}
